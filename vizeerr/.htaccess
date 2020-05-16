@@ -1,0 +1,7 @@
+
+# HTID:12327076: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile "/storage/ssd3/151/10015151/public_html/vizeerr/.htpasswd"
+Require user vizeerr
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:12327076:

@@ -1,0 +1,20 @@
+
+# HTID:9919496: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:9919496:
+
+
+
+# HTID:12327099: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www.)?(www.viveksagar.tk|viveksagar.tk|viveksagar.000webhostapp.com)(/)?.*$      [NC]
+RewriteRule .*.(.jpg|.jpeg|.gif|.png|.bmp|.tiff)$ http://viveksagar.tk [R,NC]
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:12327099:
+
+
+
+# HTID:12327120: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www.)?(www.viveksagar.tk|viveksagar.tk|viveksagar.000webhostapp.com)(/)?.*$      [NC]
+RewriteRule .*.(.zip|.rar|.exe|.mp3|.pdf|.swf|.psd)$ http://viveksagar.tk [R,NC]
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:12327120:
