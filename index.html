@@ -21,6 +21,7 @@
 	<link
 		href="https://fonts.googleapis.com/css?family=Lobster|Playball|Kaushan+Script|Josefin+Sans|Mansalva|Satisfy|Yesteryear|Courgette|Damion|Great+Vibes|Pacifico&display=swap"
 		rel="stylesheet">
+		<link rel="stylesheet" href="/assets/cs/login.css">
 	<script src="https://kit.fontawesome.com/021dafb166.js"></script>
 	<script type="text/javascript" src="assets/js/lightbox-plus-jquery.min.js">
 
@@ -176,7 +177,7 @@
 
 				<a href="images/v8.jpg" rel="lightbox[g]">
 					<div class="dd">
-						<img class="crop" src="images/v7.jpg" alt="portrait photography" />
+						<img class="crop" src="images/v8.jpg" alt="portrait photography" />
 						<div class="see"></div>
 					</div>
 				</a>
@@ -270,43 +271,22 @@
 				<h2 class="subhead">Contact Me</h2>
 
 				<!-- Start BawkBox Code-->
-
-				<script data-sil-id="5df609816ffd230010a68729">
-					var loadWidget = function () {
-						var d = document,
-							w = window,
-							l = window.location,
-							p = l.protocol == "file:" ? "http://" : "//";
-						if (!w.WS) w.WS = {};
-						c = w.WS;
-						var m = function (t, o) {
-							var e = d.getElementsByTagName("script");
-							e = e[e.length - 1];
-							var n = d.createElement(t);
-							if (t == "script") {
-								n.async = true;
-							}
-							for (k in o) n[k] = o[k];
-							e.parentNode.insertBefore(n, e)
-						};
-						m("script", {
-							src: p + "bawkbox.com/widget/contact/5df609816ffd230010a68729?page=" + encodeURIComponent(l +
-								''),
-							type: 'text/javascript'
-						});
-						c.load_net = m;
-					};
-					if (window.Squarespace) {
-						document.addEventListener('DOMContentLoaded', loadWidget);
-						setTimeOut(function () {
-							document.addEventListener('DOMContentLoaded', loadWidget);
-						}, 3000)
-					} else {
-						loadWidget()
-					}
-				</script>
-				<div class="sil-widget-contact sil-widget" id="sil-widget-5df609816ffd230010a68729"><a
-						href="//bawkbox.com/install/contact">Contact Box</a></div><!-- End BawkBox Code-->
+				<div class="cont-form">
+					<form name="contact" method="POST" data-netlify="true">
+						<p>
+						 <input type="text" name="name" placeholder="Name" /> 
+						</p>
+						<p>
+						   <input type="email" name="email" placeholder="Email"/>
+						</p>
+						<p>
+						  <textarea name="message" placeholder="Message"></textarea>
+						</p>
+						<p class="sub-but">
+						  <button type="submit">SEND</button>
+						</p>
+					</form>
+				</div>
 
 			</div>
 
@@ -337,13 +317,13 @@
 	<div id="mySidenav" class="sidenav">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<a href="index.html"><i class="fas fa-home"></i> Home</a>
-		<a href="blog.html"><i class="fas fa-camera-retro"></i> Blog</a>
+		<a href="https://viveksagar.tk/blog.html"><i class="fas fa-camera-retro"></i> Blog</a>
 		<a href="#gallery"><i class="fas fa-camera-retro"></i> Photography</a>
 		<a href="#vid"><i class="fas fa-video"></i> Videos</a>
 		<a href="#abt"><i class="fas fa-user"></i> About Me</a>
 		<a href="#cts"><i class="fas fa-address-book"></i>Contact Me</a>
 		<a href="#"><i id="ig" class="fab fa-instagram"></i>Instagram</a>
-		<a class="ft" href="#"><i id="fac" class="fab fa-facebook"></i> Facebook</a>
+		<a class="ft" href="https://www.facebook.com/vivek.sagar.54540"><i id="fac" class="fab fa-facebook"></i> Facebook</a>
 
 	</div>
 
